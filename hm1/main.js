@@ -51,6 +51,7 @@ console.log(typeof c, c)
 
 
 
+
 let lastname = 'Malynovska';
 let firstname = 'Mariana';
 let surname = 'Tarasivna';
