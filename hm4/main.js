@@ -1,113 +1,113 @@
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-
-]
-for (let i = 0; i < users.length; i++) {
-    const user = users[i];
-    document.write (`<div>test</div>`)
-}
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//
+// ]
+// for (let i = 0; i < users.length; i++) {
+//     const user = users[i];
+//     document.write (`<div>test</div>`)
+// }
 
 
 
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-
-]
-
-for (let i = 0; i < users.length; i++) {
-    const user = users[i];
-    document.write(`<div>test - ${i}</div>`)
-}
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//
+// ]
+//
+// for (let i = 0; i < users.length; i++) {
+//     const user = users[i];
+//     document.write(`<div>test - ${i}</div>`)
+// }
 
 
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 30, status: true},
-]
-let i = 0;
-while (i < users.length) {
-    let user = users[i];
-    document.write (`<h1>test</h1>`)
-    i++;
-}
-
-
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 30, status: true},
+// ]
+// let i = 0;
+// while (i < users.length) {
+//     let user = users[i];
+//     document.write (`<h1>test</h1>`)
+//     i++;
+// }
+//
+//
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 30, status: true},
-]
-
-let i = 0;
-while (i < users.length) {
-    let user = users[i];
-    document.write (`<h1>test - ${i}</h1>`)
-    i++;
-}
-
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 30, status: true},
+// ]
+//
+// let i = 0;
+// while (i < users.length) {
+//     let user = users[i];
+//     document.write (`<h1>test - ${i}</h1>`)
+//     i++;
+// }
+//
 
 
 
@@ -116,13 +116,11 @@ while (i < users.length) {
 // Масив:
 //
     let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-    for (listOfItem of listOfItems) {
-        document.write (`<ul>`);
+    document.write (`<ul>`)
         for (listOfItem of listOfItems) {
             document.write (`<li>${listOfItem}</li>`);
         }
-        document.write (`</ul>`);
-    }
+
 
 //
 // ШАБЛОН:
@@ -149,28 +147,28 @@ while (i < users.length) {
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
 // Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
 //
-let products = [
-    {
-        title: 'milk',
-        price: 22,
-        image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
-    },
-    {
-        title: 'juice',
-        price: 27,
-        image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
-    },
-    {
-        title: 'tomato',
-        price: 47,
-        image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
-    },
-    {
-        title: 'tea',
-        price: 15,
-        image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
-    },
-];
+// let products = [
+//     {
+//         title: 'milk',
+//         price: 22,
+//         image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+//     },
+//     {
+//         title: 'juice',
+//         price: 27,
+//         image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+//     },
+//     {
+//         title: 'tomato',
+//         price: 47,
+//         image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+//     },
+//     {
+//         title: 'tea',
+//         price: 15,
+//         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+//     },
+// ];
 
 // ШАБЛОН
 // <div class="product-card">
@@ -179,16 +177,16 @@ let products = [
 // </div>
 // Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
 
-   for ( const product of products) {
-       document.write(
-           `
-           <div class="product-card">
-               <h3>TITLE - ${product.title}, PRICE - ${product.price}</h3>
-               <img src="${product.image} "alt="product-image">
-           </div>
-          `
-       )
-   }
+   // for ( const product of products) {
+   //     document.write(
+   //         `
+   //         <div class="product-card">
+   //             <h3>TITLE - ${product.title}, PRICE - ${product.price}</h3>
+   //             <img src="${product.image} "alt="product-image">
+   //         </div>
+   //        `
+   //     )
+   // }
 
 
 
@@ -198,19 +196,19 @@ let products = [
 // --------------------
 //     є масив
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 31, status: true}
-];
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 31, status: true}
+// ];
 
 // за допомоги циклу вивести:
 //     - користувачів зі статусом true
@@ -218,17 +216,17 @@ let users = [
 // - користувачів які старші за 30 років
 
 
-for (let i = 0; i < users.length; i++) {
-    const user = users[i];
-    if (user.status) {
-        console.log(user)
-    }
-    if (!user.status) {
-        console.log(user)
-    }
-    if (user.age > 30) {
-        console.log(user)
-    }
-}
+// for (let i = 0; i < users.length; i++) {
+//     const user = users[i];
+//     if (user.status) {
+//         console.log(user)
+//     }
+//     if (!user.status) {
+//         console.log(user)
+//     }
+//     if (user.age > 30) {
+//         console.log(user)
+//     }
+// }
 
 
