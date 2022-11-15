@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e12901-0139-4d15-a6b3-ad100c83dbe2" name="Changes" comment="//,">
-      <change beforePath="$PROJECT_DIR$/hm4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hm4/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/additional tasks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional tasks/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,7 @@
       <workItem from="1667257815966" duration="8639000" />
       <workItem from="1667473905538" duration="24928000" />
       <workItem from="1668068686294" duration="11633000" />
+      <workItem from="1668332242215" duration="28812000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1667257572321</created>
@@ -175,14 +177,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/additional tasks/main.js</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/hm4/main.js</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
