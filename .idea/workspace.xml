@@ -7,6 +7,7 @@
     <list default="true" id="77e12901-0139-4d15-a6b3-ad100c83dbe2" name="Changes" comment="//,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/additional tasks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional tasks/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hm5/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <workItem from="1667257815966" duration="8639000" />
       <workItem from="1667473905538" duration="24928000" />
       <workItem from="1668068686294" duration="11633000" />
-      <workItem from="1668332242215" duration="28812000" />
+      <workItem from="1668332242215" duration="61845000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1667257572321</created>
@@ -148,7 +149,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668079718172</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="//,">
+      <created>1668512709250</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668512709250</updated>
+    </task>
+    <task id="LOCAL-00014" summary="//,">
+      <created>1668512738454</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668512738454</updated>
+    </task>
+    <task id="LOCAL-00015" summary="//,">
+      <created>1668518183266</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668518183266</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +202,12 @@
           <url>file://$PROJECT_DIR$/hm4/main.js</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hm6/main.js</url>
+          <line>150</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
