@@ -38,13 +38,12 @@
 // ]
 // array(users);
 //
-// // // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
-// //
-// function txt() {
-//     document.write(`<p>${arguments[0]}</p>`);
+// // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
 //
-// }
-// txt ('hello')
+function txt(text) {
+    document.write(`<p>  ${text} </p>`);
+}
+txt ('hello')
 //
 // // // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 //
@@ -62,28 +61,29 @@
 // //
 // // // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 // //
-function elem (text, count) {
-    document.write(`<ul>`)
-    for (let i = 0; i < count; i++) {
-        document.write (`<li>  ${text}  </li> 
-        `)
-    }
-    document.write(`</ul>`)
-}
-elem('lorem', '5')
+// function elem (text, count) {
+//     document.write(`<ul>`)
+//     for (let i = 0; i < count; i++) {
+//         document.write (`<li>  ${text}  </li>
+//         `)
+//     }
+//     document.write(`</ul>`)
+// }
+// elem('lorem', '5')
 //
 // //
 // // // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список//
 // //
-function elem (array) {
-    document.write(`<ul>`)
-    for (const inform of array) {
-        document.write (`<li>${inform}</li>`)}
-    document.write(`</ul>`)
-    }
-
-let asd = [23, 78, false, 'lorem']
- elem(asd)
+// function elem (array) {
+//     document.write(`<ul>`)
+//     for (const inform of array) {
+//         document.write (`<li>${inform}</li>`)}
+//     document.write(`</ul>`)
+//     }
+//
+//
+// let asd = [23, 78, false, 'lorem']
+//  elem(asd)
 // //
 // // // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 // //
@@ -116,14 +116,14 @@ let asd = [23, 78, false, 'lorem']
 // //
 // // // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
-
- let count = (array) => {
-    let i = 0;
-    for (const elem of array) {
-        i += elem;
-    }
-    return i;
-};
-
-let sum = count ([10,20,70])
-console.log(sum);
+//
+//  let count = (array) => {
+//     let i = 0;
+//     for (const elem of array) {
+//         i += elem;
+//     }
+//     return i;
+// };
+//
+// let sum = count ([10,20,70])
+// console.log(sum);
