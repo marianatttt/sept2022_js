@@ -20,12 +20,12 @@
             let info = document.createElement('div')
             function explorer(key) {
                 for (const value in key) {
-                    if (typeof key[value] !== 'object'){
+                    if (typeof key[value] === 'object'){
+                        explorer(key[value])
+                    } else {
                         let div = document.createElement('div')
                         div.innerText = (`${value} : ${key[value]}`)
                         info.append(div)
-                    } else {
-                        explorer(key[value])
                     } }}
                 explorer(value)
                 document.body.appendChild(info)
