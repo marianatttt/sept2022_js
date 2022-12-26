@@ -46,9 +46,11 @@ fetch (`https://jsonplaceholder.typicode.com/posts/${id}`)
                             div.classList.add('box7')
                             div.innerText = ` ${item.body}`
                             inf.appendChild(div)
+                            document.body.appendChild(inf)
                         }
-                        document.body.appendChild(inf)
+                    button.disabled= 'true'
                     }
+
                 )
         }
     } )
